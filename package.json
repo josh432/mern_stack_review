@@ -1,0 +1,29 @@
+{
+  "name": "mern_stack_review",
+  "version": "1.0.0",
+  "description": "Shopping list built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh432/mern_stack_review.git"
+  },
+  "author": "Josh Silverman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josh432/mern_stack_review/issues"
+  },
+  "homepage": "https://github.com/josh432/mern_stack_review#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
